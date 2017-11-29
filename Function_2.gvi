@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FEE2D994F8C4526ED1012B583CC84C2E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="29300C788B282758E81DF2ECD680CB9F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
@@ -45,7 +45,7 @@
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" />
 		<BlockDiagram Id="12" />
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
-			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=14}" Height="[float]340" Id="16" Label="[UIModel]34" Left="[float]140" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]106" Width="[float]527" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=14}" Height="[float]461" Id="16" Label="[UIModel]34" Left="[float]140" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]106" Width="[float]350" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="17" Label="[string]Time" MajorDivisions="[UIModel]28" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 					<RangeLabeledDivisions Id="28" LabelPresenter="[string]LVRelativeSeconds:N0" />
 				</Axis>
@@ -62,10 +62,10 @@
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="26" LineStroke="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" />
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="27" LineStroke="[SMSolidColorBrush]#ff3c0726" PointShape="[PointShape]Cross" />
 			</Graph>
-			<PlotLegend Graph="[UIModel]16" Height="[float]28" Id="30" Left="[float]674" Top="[float]106" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]16" Height="[float]102" Id="31" Left="[float]145" MinHeight="[float]80" Top="[float]475" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<ScaleLegend Graph="[UIModel]16" Height="[float]50" Id="32" Left="[float]674" MinHeight="[float]50" Top="[float]344" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<GraphTools Graph="[UIModel]16" Id="33" Left="[float]145" Top="[float]453" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<PlotLegend Graph="[UIModel]16" Height="[float]28" Id="30" Left="[float]497" Top="[float]106" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]16" Height="[float]102" Id="31" Left="[float]145" MinHeight="[float]80" Top="[float]596" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<ScaleLegend Graph="[UIModel]16" Height="[float]50" Id="32" Left="[float]497" MinHeight="[float]50" Top="[float]465" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<GraphTools Graph="[UIModel]16" Id="33" Left="[float]145" Top="[float]574" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="34" LabelOwner="[UIModel]16" Left="[float]140" Text="[string]Graph" Top="[float]86" Width="[float]33" xmlns="http://www.ni.com/PanelCommon" />
 		</CPFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="14" Name="Graph" xmlns="http://www.ni.com/MocCommon">
